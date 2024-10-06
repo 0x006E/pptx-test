@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-helmet": "^6.1.11",
     "@uidotdev/usehooks": "^2.4.1",
     "html-react-parser": "^5.1.17",
     "pptx2json-ts": "^0.0.2",
