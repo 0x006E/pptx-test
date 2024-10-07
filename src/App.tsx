@@ -24,8 +24,6 @@ function App() {
         if (slide !== -1) {
           setTimeout(() => {
             window.Presentation.GotoSlide(slide);
-            const img = Array.from(document.querySelectorAll("img"));
-            img[img.length - 1].style.display = "none";
           }, 100);
         }
         intervalRef.current = setInterval(() => {

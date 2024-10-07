@@ -19,6 +19,10 @@
 }
 
 
+img[src*="image/png"] {
+  display: none;
+}
+
 #player {
   position: relative;
 }
