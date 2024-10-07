@@ -137,7 +137,7 @@ function App() {
       <div id="loadingImg">
         <div
           style={{
-            width: "100px",
+            width: "300px",
             height: "50px",
             margin: 0,
             background: "transparent",
@@ -148,7 +148,7 @@ function App() {
             style={{ width: "auto", height: "auto" }}
             onClick={() => window.DopPlayer()}
           >
-            {slide !== -1 ? "Resume from " + slide : "Play"}"
+            {slide !== -1 ? "Resume from " + slide : "Play"}
           </button>
         </div>
       </div>
